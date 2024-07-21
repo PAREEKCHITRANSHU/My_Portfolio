@@ -1,6 +1,6 @@
 import React from 'react';
 import school_logo from "../assets/school_logo.png";
-import mlv_logo from "../assets/mlv_logo.png";
+import mlv_logo from "../assets/logo-college.png";
 
 const Education = () => {
   const events = [

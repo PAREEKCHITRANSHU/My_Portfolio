@@ -18,14 +18,14 @@ const EmailCard = ({ onClose }) => {
           <FaTimes size={20} />
         </button>
         <div className="mt-4">
-          <p className="mb-2 text-black">Email:  <a href={email} target="_blank" rel="noopener noreferrer" className="text-blue-500">{email}</a></p>
+          <p className="mb-2 text-white">Email:  <a href={email} target="_blank" rel="noopener noreferrer" className="text-blue-500">{email}</a></p>
           <button
             onClick={() => copyToClipboard(email)}
             className="flex items-center bg-blue-500 text-white py-1 px-3 rounded hover:bg-blue-700 transition-colors"
           >
             <FaCopy className="mr-2" /> Copy Email
           </button>
-          <p className="mt-4 mb-2 text-black">LinkedIn: <a href={linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-500">{linkedin}</a></p>
+          <p className="mt-4 mb-2 text-white">LinkedIn: <a href={linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-500">{linkedin}</a></p>
           <button
             onClick={() => copyToClipboard(linkedin)}
             className="flex items-center bg-blue-500 text-white py-1 px-3 rounded hover:bg-blue-700 transition-colors"
